@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			.box {
+				height: 600px;
+				width: 320px;
+				background: grey;
+				border: thin black solid;
+				margin: 0 auto;
+				position: relative;
+			}
+			.top {
+				height: 8%
+
+			}
+			.top-edit {
+				color: red;
+				display: inline-block;
+				position: relative;
+			    left: 5%;
+			}
+			.top-clock {
+				display: inline-block;
+				position: relative;
+				left: 30%;
+			}
+			.top-add {
+				color: red;
+				position: relative;
+				top: 15%;
+				left: 60%;
+				font-size: xx-large;
+			}
+			.medium {
+				width: 318px;
+				height: 15%;
+				background: white;
+				top:50px;
+	 		   	left:10px;
+			}
+			.medium-clock {
+				font-size: xx-large;
+				font-weight:bold;
+				display: inline-block;
+				position: relative;
+				transform: translateY(-0%);
+			    left: 5%;
+
+			}
+			.medium-time {
+				position: relative;
+			    left: 5%;
+			}
+			.medium-button {
+				width: 45px;
+ 			   	height: 30px;
+ 			   	border-radius:  15px;
+				background: green;
+ 			   	position: relative;
+				transform: translateY(-120%);
+				left: 80%;
+			}
+		</style>
+		<title>test1</title>
+	</head>
+	<body>
+		<div class='box'>
+			<div class='top'>
+				<b class='top-edit'>编辑</b>
+				<div class="top-clock">闹钟</div>
+				<b class='top-add'>+</b>
+			</div>
+				<div class='medium'>
+					<div class="medium-clock">08:00</div>
+					<div class="medium-time">闹钟，每天</div>
+					<button class="medium-button"></button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

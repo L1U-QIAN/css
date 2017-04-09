@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test</title>
+		<style>
+			.box {
+				height: 700px;
+				width: 320px;
+				margin: 0 auto;
+				background: #EEEEEE;
+
+			}
+			.top {
+				height: 10%;
+				background: lightblue;
+			}
+			.top-message {
+				display: inline-block;
+				position: relative;
+				top: 40%;
+				left: 5%;
+				color: white;
+				font-size: large;
+			}
+			.top-user {
+				position: relative;
+				top: 50%;
+				transform: translateX(65%);
+				text-align: center;
+				color: white;
+				font-size: small;
+				display: inline-block;
+
+			}
+			.font {
+				display: inline-block;
+			}
+			.top-other {
+				display: inline-block;
+				position: relative;
+				left: 25%;
+				top: 40%;
+				color: white;
+				font-size: large;
+
+			}
+			.main {
+				height: 80%;
+			}
+			.main-message {
+				height: 15%;
+				position: relative;
+				top: 2%;
+
+			}
+			.other {
+				position: relative;
+				left: 3%;
+			}
+			.avatar {
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+				border: thin black solid;
+			}
+			.main-message-container-other {
+				position: relative;
+			    transform: translateY(-48%);
+				left: 3%;
+				display: inline-block;
+				width: 60px;
+				height: 30px;
+				border-radius: 20%;
+				border: thin black solid;
+				background: white;
+				text-align: center;
+			}
+
+			.user {
+				position: relative;
+				left: 67%;
+			}
+
+
+			.main-message-container-user {
+				position: relative;
+				transform: translateY(-48%);
+			    right: 3%;
+				display: inline-block;
+				width: 60px;
+				height: 30px;
+				border-radius: 20%;
+				border: thin black solid;
+				background: lightblue;
+				text-align: center;
+			}
+			.bottom {
+				height: 10%;
+			}
+			.bottom-input {
+
+				display: inline-block;
+				width: 240px;
+				height: 30px;
+				border-radius: 8%;
+				border: thin white solid;
+				position: relative;
+				left: 3%;
+
+			}
+			.bottom-send {
+				display: inline-block;
+				width: 50px;
+				height: 30px;
+				border-radius: 20%;
+			    border: thin #C4C4C4 solid;
+				position: relative;
+				left: 3%;
+				color: white;
+				background: #C4C4C4;
+
+			}
+			.bottom-indicators {
+				height: 10%;
+			    transform: translateY(-50%);
+			    margin-left: 2%;
+			}
+			.indi {
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				border-radius: 50%;
+				border: thin black solid;
+				position: relative;
+				left: 5%;
+				top: 10%;
+			}
+			.bottom-delimiter {
+				width: 6px;
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="top">
+				<div class="top-message">消息</div>
+				<div class="top-user">
+					<div>瓜瓜</div>
+					<div class="font" id="top-user-PhoneStatus">Iphone在线</div>
+					<div class="font" id="top-user-separatrix">-</div>
+					<div class="font" id="top-user-condition">2G</div>
+				</div>
+				<div class="top-other">
+					<div class="font">电话</div>
+					<div class="font">好友</div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="main-message other" id="other-0">
+					<img class="avatar" src="dog1.png">
+					<div class="main-message-container-other">内容1</div>
+				</div>
+				<div class="main-message user" id="user-0">
+					<div class="main-message-container-user">内容2</div>
+					<img class="avatar" src="dog2.png">
+				</div>
+				<div class="main-message other" id="other-1">
+					<img class="avatar" src="dog1.png">
+					<div class="main-message-container-other">内容1</div>
+				</div>
+				<div class="main-message user" id="user-1">
+					<div class="main-message-container-user">内容2</div>
+					<img class="avatar" src="dog2.png">
+				</div>
+				<div class="main-message other" id="other-2">
+					<img class="avatar" src="dog1.png">
+					<div class="main-message-container-other">内容1</div>
+				</div>
+				<div class="main-message user" id="user-2">
+					<div class="main-message-container-user">内容2</div>
+					<img class="avatar" src="dog2.png">
+				</div>
+			</div>
+			<div class="bottom">
+				<input class="bottom-input"></input>
+				<button class="bottom-send">发送</div>
+				<div class="bottom-indicators">
+					<div id="0" class="indi"></div>
+					<div class="bottom-delimiter"></div>
+					<div id="1" class="indi"></div>
+					<div class="bottom-delimiter"></div>
+					<div id="2" class="indi"></div>
+					<div class="bottom-delimiter"></div>
+					<div id="3" class="indi"></div>
+					<div class="bottom-delimiter"></div>
+					<div id="4" class="indi"></div>
+					<div class="bottom-delimiter"></div>
+					<div id="5" class="indi"></div>
+					<div class="bottom-delimiter"></div>
+					<div id="6" class="indi"></div>
+					<div class="bottom-delimiter"></div>
+					<div id="7" class="indi"></div>
+					<div class="bottom-delimiter"></div>
+					<div id="8" class="indi"></div>
+				</div>
+		</div>
+	</body>
+</html>
